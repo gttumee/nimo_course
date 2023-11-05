@@ -9,17 +9,20 @@ use Illuminate\Http\Request;
 class PostController extends Controller
 {
    public function research(Request $request){
+    if($request->input('name') and $request->input('emailandphone')){
     $research = new research();
     $research->name = $request->input('name');
     $research->email = $request->input('emailandphone');
     $research->type = $request->input('type');
     $research->text = $request->input('message');
     $research->save();
+    }
    return view('pages.index');
 
    }
 
    public function course(Request $request){
+    if($request->input('firstname') and $request->input('email')){
     $courseRequest = new course_request();
     $courseRequest->type = $request->input('option');
     $courseRequest->firstname = $request->input('firstname');
@@ -28,6 +31,7 @@ class PostController extends Controller
     $courseRequest->phone = $request->input('phone');
     $courseRequest->job = $request->input('job_option');
     $courseRequest->save();
+}
     return view('pages.index');
    }
     
