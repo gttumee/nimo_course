@@ -13,9 +13,9 @@
                                     <img src="images/slide/17111.jpg" class="carousel-image img-fluid" alt="...">
 
                                     <div class="carousel-caption d-flex flex-column justify-content-end">
-                                        <h1>京都(Эртний хотуудын нэг)</h1>
+                                        <h1>Япон</h1>
 
-                                        <p>Эртний хотуудын нэг</p>
+                                        <p>130 сая хүн амтай аралын орон</p>
                                     </div>
                                 </div>
 
@@ -125,7 +125,7 @@
 
                     <div class="col-lg-5 col-md-7 col-12">
                         <div class="custom-text-block">
-                            <h2 class="mb-0">Б.Буянжаргал</h2>
+                            <h2 class="mb-0">Mr jonh</h2>
 
                             <p class="text-muted mb-lg-4 mb-md-4">Үүсгэн байгуулагч</p>
 
@@ -188,10 +188,10 @@
 
                                     <p>Энэхүү сургалтаар япон хэл огт мэдэхгүй хүмүүс зориулсан</p>
 
-                                    <div class="progress mt-4">
+                                    {{-- <div class="progress mt-4">
                                         <div class="progress-bar w-75" role="progressbar" aria-valuenow="75"
                                             aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
+                                    </div> --}}
 
                                     <div class="d-flex align-items-center my-2">
                                         <p class="mb-0">
@@ -220,13 +220,12 @@
                                 <div class="custom-block-body">
                                     <h5 class="mb-3">N3, N2 Дунд шат</h5>
 
-                                    <p>Энэхүү сургалт нь дунд шатны сургалт юм элсэгчийг төвшин тогтоосны дараа элсэх
-                                        боломжтой</p>
+                                    <p>Япон хэлний суурьтай хүмүүст зориулсан сургалт</p>
 
-                                    <div class="progress mt-4">
+                                    {{-- <div class="progress mt-4">
                                         <div class="progress-bar w-50" role="progressbar" aria-valuenow="50"
                                             aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
+                                    </div> --}}
 
                                     <div class="d-flex align-items-center my-2">
                                         <p class="mb-0">
@@ -258,10 +257,10 @@
                                     <p>Энэхүү шат нь Япон хэлний ахисан төвшин бөгөөд Япон багш хичээл орох болно.
                                     </p>
 
-                                    <div class="progress mt-4">
+                                    {{-- <div class="progress mt-4">
                                         <div class="progress-bar w-100" role="progressbar" aria-valuenow="100"
                                             aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
+                                    </div> --}}
 
                                     <div class="d-flex align-items-center my-2">
                                         <p class="mb-0">
@@ -449,13 +448,13 @@
                     </div>
                     <div class="col-lg-4 col-12 mx-auto">
                         <form class="custom-form search-form" action="#" method="post" role="form">
-                            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                            <input class="form-control" type="search" placeholder="Хайх" aria-label="Search">
 
                             <button type="submit" class="form-control">
                                 <i class="bi-search"></i>
                             </button>
                         </form>
-                        <h5 class="mt-5 mb-3">Recent news</h5>
+                        <h5 class="mt-5 mb-3">Сүүлд үзсэн мэдээ</h5>
                         <div class="news-block news-block-two-col d-flex mt-4">
                             <div class="news-block-two-col-image-wrap">
                                 <a href="news-detail.html">
@@ -500,7 +499,7 @@
                         </div>
 
                         <div class="category-block d-flex flex-column">
-                            <h5 class="mb-3">Categories</h5>
+                            <h5 class="mb-3">Ангилал</h5>
 
                             <a href="#" class="category-block-link">
                                 Drinking water
@@ -669,7 +668,7 @@
                                     class="img-fluid avatar-image" alt="">
 
                                 <div class="d-flex flex-column justify-content-center ms-3">
-                                    <p class="mb-0">Г.Түмэндэмбэрэл</p>
+                                    <p class="mb-0">mark</p>
                                     <p class="mb-0"><strong>Маркетингийн ажилтан</strong></p>
                                 </div>
                             </div>
@@ -704,7 +703,8 @@
                     </div>
 
                     <div class="col-lg-5 col-12 mx-auto">
-                        <form class="custom-form contact-form" action="#" method="post" role="form">
+                              <form class="custom-form contact-form" action="{{ route('contact') }}" method="POST" role="form">
+                                @csrf
                             <h2>Холбоо барих</h2>
 
                             <p class="mb-4">и-мэйлээр холбоо бариж болно:
@@ -712,19 +712,19 @@
                             </p>
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 col-12">
-                                    <input type="text" name="first-name" id="first-name" class="form-control"
+                                    <input type="text" name="firstname" id="first-name" class="form-control"
                                         placeholder="Овог" required>
                                 </div>
 
                                 <div class="col-lg-6 col-md-6 col-12">
-                                    <input type="text" name="last-name" id="last-name" class="form-control"
+                                    <input type="text" name="lastname" id="last-name" class="form-control"
                                         placeholder="Нэр" required>
                                 </div>
                             </div>
 
                             <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control"
                                 placeholder="И-мэйл" required>
-                            <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control"
+                            <input type="text" name="phone" id="email"  class="form-control"
                                 placeholder="Утас" required>
 
                             <textarea name="message" rows="5" class="form-control" id="message"

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\contact;
 use App\Models\course_request;
 use App\Models\research;
 use Illuminate\Http\Request;
@@ -35,4 +36,16 @@ class PostController extends Controller
     return view('pages.index');
    }
     
+   public function contact(Request $request){
+    if($request->input('firstname') and $request->input('lastname')){
+    $contactRequest = new contact();
+    $contactRequest->firstname = $request->input('firstname');
+    $contactRequest->lastname = $request->input('lastname');
+    $contactRequest->email = $request->input('email');
+    $contactRequest->phone = $request->input('phone');
+    $contactRequest->message = $request->input('message');
+    $contactRequest->save();
+}
+    return view('pages.index');
+   }
 }

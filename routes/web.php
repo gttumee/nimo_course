@@ -21,6 +21,8 @@ Route::post('/research',[PostController::class,'research'])->name('research');
 Route::get('/research',[PostController::class,'research'])->name('research');
 Route::post('/course',[PostController::class,'course'])->name('course');
 Route::get('/course',[PostController::class,'course'])->name('course');
+Route::post('/contact',[PostController::class,'contact'])->name('contact');
+Route::get('/contact',[PostController::class,'contact'])->name('contact');
 
 
 Route::get('/', [PagesController::class, 'index'])->name('index');
