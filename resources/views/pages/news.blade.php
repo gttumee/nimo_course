@@ -9,7 +9,7 @@
             <div class="row">
 
                 <div class="col-lg-12 col-12">
-                    <h1 class="text-white">News Listing</h1>
+                    <h1 class="text-white">Мэдээ Мэдээлэл</h1>
                 </div>
 
             </div>

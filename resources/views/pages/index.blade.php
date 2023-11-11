@@ -5,43 +5,66 @@
         <section class="hero-section hero-section-full-height">
             <div class="container-fluid">
                 <div class="row">
-
                     <div class="col-lg-12 col-12 p-0">
                         <div id="hero-slide" class="carousel carousel-fade slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="images/slide/17111.jpg" class="carousel-image img-fluid" alt="...">
-
+                                    <img src="images/slide/slide_1.jpg" class="carousel-image img-fluid" alt="...">
                                     <div class="carousel-caption d-flex flex-column justify-content-end">
-                                        <h1>Япон</h1>
-
-                                        <p>130 сая хүн амтай аралын орон</p>
+                                        <h1>日本</h1>
+                                        <p>Япон улс 130 сая хүн амтай арлын орон
+                                        </p>
                                     </div>
                                 </div>
-
                                 <div class="carousel-item">
-                                    <img src="images/slide/volunteer-selecting-organizing-clothes-donations-charity.jpg"
+                                    <img src="images/slide/slide_2.jpg"
                                         class="carousel-image img-fluid" alt="...">
-
                                     <div class="carousel-caption d-flex flex-column justify-content-end">
-                                        <h1>Non-profit</h1>
-
-                                        <p>You can support us to grow more</p>
+                                        <h1>富士山</h1>
+                                        <p>Фүжи уул Японы хамгийн өдөр уул 3,776.24м</p>
                                     </div>
                                 </div>
-
                                 <div class="carousel-item">
-                                    <img src="images/slide/medium-shot-people-collecting-donations.jpg"
+                                    <img src="images/slide/slide_7.jpg"
                                         class="carousel-image img-fluid" alt="...">
-
                                     <div class="carousel-caption d-flex flex-column justify-content-end">
-                                        <h1>Humanity</h1>
-
-                                        <p>Please tell your friends about our website</p>
+                                        <h1>金閣寺</h1>
+                                        <p>Алтан сүм Киото хотод байрлах эртний сүм </p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/slide/slide_4.jpg"
+                                        class="carousel-image img-fluid" alt="...">
+                                    <div class="carousel-caption d-flex flex-column justify-content-end">
+                                        <h1>東京</h1>
+                                        <p>Япон улсын нийслэл Токио хот 14сая хүн амтай</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/slide/slide_5.jpg"
+                                        class="carousel-image img-fluid" alt="...">
+                                    <div class="carousel-caption d-flex flex-column justify-content-end">
+                                        <h1>寿司</h1>
+                                        <p>Японы үндэсний хоол</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/slide/slide_8.jpg"
+                                        class="carousel-image img-fluid" alt="...">
+                                    <div class="carousel-caption d-flex flex-column justify-content-end">
+                                        <h1>新幹線</h1>
+                                        <p>Хурдан метро цагт 320км хурдалдаг</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/slide/slide_9.jpg"
+                                        class="carousel-image img-fluid" alt="...">
+                                    <div class="carousel-caption d-flex flex-column justify-content-end">
+                                        <h1>サクラ</h1>
+                                        <p>Сакура 3-р сарын эхнээс цэцэлгэж эхэлдэг</p>
                                     </div>
                                 </div>
                             </div>
-
                             <button class="carousel-control-prev" type="button" data-bs-target="#hero-slide"
                                 data-bs-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -153,13 +176,12 @@
                 </div>
             </div>
         </section>
-
         <section class="cta-section section-padding section-bg">
             <div class="container">
                 <div class="row justify-content-center align-items-center">
 
                     <div class="col-lg-5 col-12 ms-auto">
-                        <h2 class="mb-0">Та Японд <br> ямар чиглэлээр очихыг хүсдэг вэ?</h2>
+                        <h2 class="mb-0">Зөвөлгөө<br>Японд ажиллах сурах талаар зөвөлгөө хэрэгтэй юу?</h2>
                     </div>
 
                     <div class="col-lg-5 col-12">
@@ -179,7 +201,7 @@
 
                     <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
                         <div class="custom-block-wrap">
-                            <img src="images/causes/group-african-kids-paying-attention-class.jpg"
+                            <img src="images/causes/course_2.jpg"
                                 class="custom-block-image img-fluid" alt="">
 
                             <div class="custom-block">
@@ -213,7 +235,7 @@
 
                     <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
                         <div class="custom-block-wrap">
-                            <img src="images/causes/poor-child-landfill-looks-forward-with-hope.jpg"
+                            <img src="images/causes/course_1.jpg"
                                 class="custom-block-image img-fluid" alt="">
 
                             <div class="custom-block">
@@ -247,7 +269,7 @@
 
                     <div class="col-lg-4 col-md-6 col-12">
                         <div class="custom-block-wrap">
-                            <img src="images/causes/african-woman-pouring-water-recipient-outdoors.jpg"
+                            <img src="images/causes/course_3.jpg"
                                 class="custom-block-image img-fluid" alt="">
 
                             <div class="custom-block">
